@@ -1,0 +1,24 @@
+Lmod has detected the following error: These module(s) or extension(s) exist
+but cannot be loaded as requested: "pango"
+   Try: "module spider pango" to see how to load the module(s).
+
+
+
+4
+usage: train_chrombpnet.py pipeline [-h] -g GENOME -c CHROM_SIZES -bw BIGWIG
+                                    -o OUTPUT_DIR -d {ATAC,DNASE} -p PEAKS -n
+                                    NONPEAKS -fl CHR_FOLD_PATH
+                                    [-oth OUTLIER_THRESHOLD]
+                                    [--ATAC-ref-path ATAC_REF_PATH]
+                                    [--DNASE-ref-path DNASE_REF_PATH]
+                                    [--num-samples NUM_SAMPLES] [-il INPUTLEN]
+                                    [-ol OUTPUTLEN] [-s SEED] [-e EPOCHS]
+                                    [-es EARLY_STOP] [-l LEARNING_RATE]
+                                    [-track [TRACKABLES [TRACKABLES ...]]]
+                                    [-a ARCHITECTURE_FROM_FILE]
+                                    [-fp FILE_PREFIX] [-hp HTML_PREFIX] -b
+                                    BIAS_MODEL_PATH
+                                    [-sr NEGATIVE_SAMPLING_RATIO]
+                                    [-fil FILTERS] [-dil N_DILATION_LAYERS]
+                                    [-j MAX_JITTER] [-bs BATCH_SIZE]
+train_chrombpnet.py pipeline: error: the following arguments are required: -bw/--bigwig

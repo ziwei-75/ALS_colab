@@ -1,0 +1,1044 @@
+2023-07-11 14:51:07,143  INFO  - Running with database db.url = jdbc:hsqldb:mem:41a815eb-468d-471a-a723-5d85e3d6f9c3;shutdown=false;hsqldb.tx=mvcc
+Running Changeset: changesets/db_schema.xml::db_schema_other_table_alldb::scottfrazer
+Running Changeset: changesets/db_schema.xml::db_schema_symbol_table_otherdb::scottfrazer
+Running Changeset: changesets/db_schema.xml::db_schema_constraints::scottfrazer
+Running Changeset: changesets/symbol_iteration_null.xml::symbol_iteration_null::kshakir
+Running Changeset: changesets/wdl_and_inputs.xml::WORKFLOW_EXECUTION_AUX::mcovarr
+Running Changeset: changesets/wdl_and_inputs.xml::WE_AUX_CONSTRAINTS::mcovarr
+Running Changeset: changesets/drop_workflow_uri_and_local_command.xml::drop_workflow_uri_and_local_command::kshakir
+Running Changeset: changesets/local_job_allow_null.xml::local_job_allow_null::kshakir
+Running Changeset: changesets/symbol_iteration_not_null.xml::symbol_iteration_not_null::kshakir
+Running Changeset: changesets/add_unique_constraints.xml::add_unique_constraints::kshakir
+Running Changeset: changesets/lengthen_wdl_value.xml::LENGTHEN_WDL_VALUE::sfrazer
+Running Changeset: changesets/add_index_in_execution.xml::add-index-in-execution::tjeandet
+Running Changeset: changesets/rename_iteration_to_index.xml::rename-iteration-to-index::tjeandet
+Running Changeset: changesets/sge.xml::sge::scottfrazer
+Running Changeset: changesets/sge.xml::db_schema_constraints::scottfrazer
+Running Changeset: changesets/change_execution_unique_constraint.xml::change_execution_unique_constraint::tjeandet
+Running Changeset: changesets/rc.xml::rc::mcovarr
+Running Changeset: changesets/workflow_options.xml::workflow-options::sfrazer
+Running Changeset: changesets/jes_id_update.xml::jes_id_update::chrisl
+Running Changeset: changesets/optional_sge_ids.xml::optional_sge_ids::chrisl
+Running Changeset: changesets/add_start_end_time_in_execution.xml::add-start-end-time-in-execution::jgentry
+Running Changeset: changesets/rename_jes_id.xml::rename-jes-id-to-jes-run-id::sfrazer
+Running Changeset: changesets/add_workflow_name.xml::workflow-name::mcovarr
+Running Changeset: changesets/top_level_output.xml::top_level_output::chrisl
+Running Changeset: changesets/workflow_execution_aux_not_null.xml::workflow_execution_aux_not_null::tjeandet
+Running Changeset: changesets/call_result_caching.xml::call_result_caching::chrisl
+Running Changeset: changesets/events_table.xml::execution_event_table::chrisl
+Running Changeset: changesets/sync_not_null_constraints.xml::job_not_null_columns::kshakir
+Running Changeset: changesets/sync_not_null_constraints.xml::events_end_dt_not_null::kshakir
+Running Changeset: changesets/sge_job_execution_unique_key.xml::sge_job_execution_unique_key::kshakir
+Running Changeset: changesets/add_attempt_in_execution.xml::add-attempt-in-execution::tjeandet
+Running Changeset: changesets/execution_backend_info.xml::CREATE_EXECUTION_INFO::mcovarr
+Running Changeset: changesets/execution_backend_info.xml::add_foreign_key_constraints::mcovarr
+Running Changeset: changesets/execution_backend_info.xml::add_backend_type_column::mcovarr
+Running Changeset: changesets/execution_backend_info.xml::insert_data_from_backend_tables::mcovarr
+Running Changeset: changesets/execution_backend_info.xml::set_backend_type::mcovarr
+Running Changeset: changesets/execution_backend_info.xml::drop_job_tables::mcovarr
+Running Changeset: changesets/execution_backend_info.xml::execution_info_uniqueness_constraint::mcovarr
+Running Changeset: changesets/execution_backend_info.xml::execution_backend_type_not_null::mcovarr
+Running Changeset: changesets/runtime_attributes_table.xml::runtime-attributes-table::tjeandet
+Running Changeset: changesets/failure_table.xml::failure_table::chrisl
+Running Changeset: changesets/metadata_journal.xml::metadata_journal::mcovarr
+Running Changeset: changesets/metadata_journal.xml::metadata_workflow_index::mcovarr
+Running Changeset: changesets/metadata_journal.xml::metadata_job_index::mcovarr
+Running Changeset: changesets/metadata_journal.xml::metadata_job_and_key_index::mcovarr
+Running Changeset: changesets/metadata_typed_values.xml::metadata_typed_values::tjeandet
+Running Changeset: changesets/workflow_metadata_summary.xml::metadata_journal_id_int_to_big_int::kshakir
+Running Changeset: changesets/workflow_metadata_summary.xml::workflow_metadata_summary::mcovarr
+Running Changeset: changesets/workflow_metadata_summary.xml::workflow_metadata_uuid_idx::mcovarr
+Running Changeset: changesets/workflow_metadata_summary.xml::workflow_metadata_name_idx::mcovarr
+Running Changeset: changesets/workflow_metadata_summary.xml::workflow_metadata_status_idx::mcovarr
+Running Changeset: changesets/metadata_journal_subsecond_timestamp.xml::metadata_journal_subsecond_timestamp::mcovarr
+Running Changeset: changesets/metadata_journal_subsecond_timestamp.xml::metadata_journal_timestamp_not_null::mcovarr
+Running Changeset: changesets/workflow_store.xml::WORKFLOW_STORE::chrisl
+Running Changeset: changesets/workflow_store.xml::workflow_store_uuid_index::kshakir
+Running Changeset: changesets/workflow_store.xml::workflow_store_state_index::chrisl
+Running Changeset: changesets/backend_KV_Store.xml::BACKEND_KV_STORE::rmunshi
+Running Changeset: changesets/backend_KV_Store.xml::backend_KV_store_job_key_constraint::rmunshi
+Running Changeset: changesets/job_store.xml::JOB_STORE::chrisl
+Running Changeset: changesets/job_store.xml::job_store_uuid_index::chrisl
+Running Changeset: changesets/job_store.xml::job_store_jobkey_index::chrisl
+Running Changeset: changesets/callcaching.xml::call_caching_result_metainfo::chrisl
+Running Changeset: changesets/callcaching.xml::call_caching_result_metainfo_uniqueness::chrisl
+Running Changeset: changesets/callcaching.xml::call_caching_hashes::chrisl
+Running Changeset: changesets/callcaching.xml::call_caching_result_hashes_uniqueness::chrisl
+Running Changeset: changesets/callcaching.xml::call_caching_result_hashes_uniqueness_foreign_key::chrisl
+Running Changeset: changesets/callcaching.xml::call_caching_result_simpletons::chrisl
+Running Changeset: changesets/callcaching.xml::call_caching_result_simpletons_uniqueness::chrisl
+Running Changeset: changesets/callcaching.xml::call_caching_result_simpletons_foreign_key::chrisl
+Running Changeset: changesets/call_caching_allow_result_reuse_fix.xml::call_caching_fix_boolean::mcovarr
+Running Changeset: changesets/call_caching_allow_result_reuse_fix.xml::call_caching_reuse_default::mcovarr
+Running Changeset: changesets/job_store_simpletons.xml::job_store_result_simpletons::mcovarr
+Running Changeset: changesets/job_store_simpletons.xml::job_store_result_simpletons_uniqueness::mcovarr
+Running Changeset: changesets/job_store_simpletons.xml::job_store_result_simpletons_foreign_key::mcovarr
+Running Changeset: changesets/job_store_simpletons.xml::job_store_remove_job_output::mcovarr
+Running Changeset: changesets/restart_and_recover_migration.xml::WORKFLOW_STORE_MIGRATION::mcovarr
+Running Changeset: changesets/restart_and_recover_migration.xml::JOB_STORE_MIGRATION::mcovarr
+Running Changeset: changesets/restart_and_recover_migration.xml::JOB_STORE_RESULT_SIMPLETON_VALUE_NULLABLE::mcovarr
+Running Changeset: changesets/restart_and_recover_migration.xml::JOB_STORE_RESULT_SIMPLETON_MIGRATION::mcovarr
+Running Changeset: changesets/restart_and_recover_migration.xml::BACKEND_KV_STORE_MIGRATION::mcovarr
+Running Changeset: changesets/restart_and_recover_migration.xml::WORKFLOW_OPTIONS_RENAME_MIGRATION::mcovarr
+Running Changeset: changesets/summary_status_table.xml::summary_status_table::kshakir
+Running Changeset: changesets/summary_status_table.xml::summary_status_summarized_table_name_index::kshakir
+Running Changeset: changesets/standardize_column_names.xml::workflow_execution_uuid::rmunshi
+Running Changeset: changesets/standardize_column_names.xml::call_job_identifiers::rmunshi
+Running Changeset: changesets/embiggen_metadata_value.xml::entry_or_journal_existence_xor::mcovarr
+Running Changeset: changesets/embiggen_metadata_value.xml::embiggen_metadata_entry::mcovarr
+Running Changeset: changesets/embiggen_metadata_value.xml::embiggen_metadata_journal::mcovarr
+Running Changeset: changesets/call_caching_job_detritus.xml::call_caching_job_detritus::rmunshi
+Running Changeset: changesets/call_caching_job_detritus.xml::call_caching_job_detritus_key_uniqueness::rmunshi
+Running Changeset: changesets/call_caching_job_detritus.xml::call_caching_job_detritus_foreign_key::rmunshi
+Running Changeset: changesets/job_store_tinyints.xml::job_store_fix_job_successful::mcovarr
+Running Changeset: changesets/job_store_tinyints.xml::job_store_fix_job_retryable_failure::mcovarr
+Running Changeset: changesets/job_store_tinyints.xml::job_store_not_nullable_job_successful::mcovarr
+Running Changeset: changesets/standardize_column_names_again.xml::standardize_column_names_again::kshakir
+Running Changeset: changesets/rename_workflow_options_in_metadata.xml::rename_workflow_options_in_metadata::tjeandet
+2023-07-11 14:51:13,794  INFO  - Running migration RenameWorkflowOptionsInMetadata with a read batch size of 100000 and a write batch size of 100000
+2023-07-11 14:51:13,803  INFO  - [RenameWorkflowOptionsInMetadata] 100%
+Running Changeset: changesets/encrypt_and_clear_workflow_options.xml::encrypt_workflow_store_entry_workflow_options::kshakir
+Running Changeset: changesets/encrypt_and_clear_workflow_options.xml::clear_metadata_entry_workflow_options::kshakir
+Running Changeset: changesets/sub_workflow_store.xml::SUB_WORKFLOW_STORE_ENTRY::tjeandet
+Running Changeset: changesets/sub_workflow_store.xml::sub_workflow_store_uuid_index::tjeandet
+Running Changeset: changesets/sub_workflow_store.xml::sub_workflow_store_jobkey_index::tjeandet
+Running Changeset: changesets/sub_workflow_store.xml::sub_workflow_store_root_workflow_fk::tjeandet
+Running Changeset: changesets/workflow_store_imports_file.xml::workflow-store-imports-file::cjllanwarne
+Running Changeset: changesets/workflow_store_labels_file.xml::workflow-store-labels-file::cjllanwarne
+Running Changeset: changesets/embiggen_detritus_value.xml::embiggen_call_caching_detritus_entry::rmunshi
+Running Changeset: changesets/standardize_column_names_patches.xml::standardize_column_names_patches::kshakir
+Running Changeset: changesets/standardize_column_names_patches.xml::hsqldb_longvarchar_to_longtext::kshakir
+Running Changeset: changesets/nullable_lobs.xml::nullable_lobs::kshakir
+Running Changeset: changesets/add_attempt_in_call_caching_entry.xml::add_attempt_in_call_caching_entry::tjeandet
+Running Changeset: changesets/replace_empty_custom_labels.xml::custom_labels_not_null::rmunshi
+Running Changeset: changesets/call_caching_aggregated_hashes.xml::call_caching_aggregation_entry::tjeandet
+Running Changeset: changesets/call_caching_aggregated_hashes.xml::call_caching_aggregation_entry_keys_and_indexes::tjeandet
+Running Changeset: changesets/custom_label_entry.xml::custom_LABEL_entry::rmunshi
+Running Changeset: changesets/custom_label_entry.xml::WMSE_workflow_execution_uuid_foreign_key::rmunshi
+Running Changeset: changesets/custom_label_entry.xml::custom_label_entry_index::rmunshi
+Running Changeset: changesets/custom_label_entry.xml::modify label key/value data types::rmunshi
+Running Changeset: changesets/docker_hash_store.xml::DOCKER_HASH_STORE_ENTRY::tjeandet
+Running Changeset: changesets/docker_hash_store.xml::docker_hash_store_uuid_unique_constraint::tjeandet
+Running Changeset: changesets/workflow_store_type_and_version.xml::workflow-store-type-and-version::mcovarr
+Running Changeset: changesets/remove_pre_pbe_tables.xml::drop-pre-pbe-tables::mcovarr
+Running Changeset: changesets/move_sql_metadata_changelog.xml::move_metadata_changelog::kshakir
+Running Changeset: changesets/workflow_store_state_widening.xml::workflow-store-state-widening::tjeandet
+Running Changeset: changesets/workflow_store_restarted_column.xml::workflow-store-restarted-column::tjeandet
+Running Changeset: changesets/workflow_store_restarted_column.xml::update-restartable::tjeandet
+Running Changeset: changesets/workflow_store_workflow_root_column.xml::workflow-store-workflow-root-column::tjeandet
+Running Changeset: changesets/workflow_store_horizontal_db.xml::workflow-store-horizontal-db::mcovarr
+Running Changeset: changesets/add_workflow_url_in_workflow_store_entry.xml::add_workflow_url_in_workflow_store_entry::sshah
+Running Changeset: changesets/change_max_size_workflow_url.xml::change_max_size_for_workflow_url::sshah
+Running Changeset: changesets/docker_hash_store_add_size_column.xml::docker_hash_store_entry_add_size_column::tjeandet
+Running Changeset: changesets/enlarge_call_caching_hash_entry_id.xml::restore_auto_increment_call_caching_hash_entry_id::mcovarr
+Running Changeset: changesets/add_hog_group_in_workflow_store.xml::add_hog_group_in_workflow_store::cjllanwarne
+Running Changeset: changesets/resync_engine_schema.xml::resync-engine-schema::kshakir
+Running Changeset: changesets/enlarge_job_store_ids.xml::drop_job_store_simpleton_entry_fk::mcovarr
+Running Changeset: changesets/enlarge_job_store_ids.xml::enlarge_job_store_entry_id::mcovarr
+Running Changeset: changesets/enlarge_job_store_ids.xml::enlarge_job_store_simpleton_entry_id::mcovarr
+Running Changeset: changesets/enlarge_job_store_ids.xml::enlarge_job_store_simpleton_entry_fk::mcovarr
+Running Changeset: changesets/enlarge_job_store_ids.xml::recreate_job_store_simpleton_entry_fk::mcovarr
+2023-07-11 14:51:14,414  INFO  - Running with database db.url = jdbc:hsqldb:mem:fa8e2c99-ed76-45ad-85d7-4d9b8ceee002;shutdown=false;hsqldb.tx=mvcc
+Running Changeset: metadata_changesets/move_sql_metadata_changelog.xml::move_metadata_changelog::kshakir
+Running Changeset: changesets/change_max_size_label_entry.xml::change_max_size_for_key_and_value_in_label::sshah
+Running Changeset: metadata_changesets/delete_duplicate_custom_labels.xml::delete_duplicate_custom_labels::kshakir
+Running Changeset: metadata_changesets/add_submission_timestamp_metadata_summary.xml::add_submission_timestamp_in_metadata_entry::sshah
+Running Changeset: metadata_changesets/custom_label_entry_key_value_index.xml::custom_label_entry_key_value_index::mcovarr
+Running Changeset: metadata_changesets/add_parent_and_root_workflow_execution_uuid.xml::add_parent_and_root_workflow_execution_uuid::kshakir
+Running Changeset: metadata_changesets/add_parent_and_root_workflow_typo_fix.xml::add_parent_and_root_workflow_typo_fix::kshakir
+Running Changeset: metadata_changesets/metadata_index_removals.xml::metadata_index_removals::mcovarr
+Running Changeset: metadata_changesets/add_metadata_archive_status.xml::add_metadata_archive_status::cjllanwarne
+Running Changeset: metadata_changesets/add_metadata_archive_status.xml::metadata_archive_status_index::cjllanwarne
+Running Changeset: metadata_changesets/summarization_queue_table.xml::summary_queue_table::gsterin
+Running Changeset: metadata_changesets/summarization_queue_table.xml::summary_queue_initialization::gsterin
+Running Changeset: metadata_changesets/summarization_queue_table_add_primary_key.xml::summary_queue_add_primary_key::gsterin
+Running Changeset: metadata_changesets/remove_non_summarizable_metadata_from_queue.xml::delete_non_summarizable_metadata_from_queue::mcovarr
+Running Changeset: metadata_changesets/update_metadata_archive_index.xml::update_old_metadata_archive_status_index::cjllanwarne
+Running Changeset: metadata_changesets/reset_archive_statuses_to_null.xml::reset_archive_statuses_to_null::cjllanwarne
+2023-07-11 14:51:15,592  INFO  - Slf4jLogger started
+2023-07-11 14:51:15,823 cromwell-system-akka.dispatchers.engine-dispatcher-6 INFO  - Workflow heartbeat configuration:
+{
+  "cromwellId" : "cromid-2cd5ff1",
+  "heartbeatInterval" : "2 minutes",
+  "ttl" : "10 minutes",
+  "failureShutdownDuration" : "5 minutes",
+  "writeBatchSize" : 10000,
+  "writeThreshold" : 10000
+}
+2023-07-11 14:51:16,012 cromwell-system-akka.actor.default-dispatcher-5 INFO  - KvWriteActor configured to flush with batch size 200 and process rate 5 seconds.
+2023-07-11 14:51:16,047 cromwell-system-akka.dispatchers.service-dispatcher-16 INFO  - Metadata summary refreshing every 1 second.
+2023-07-11 14:51:16,047 cromwell-system-akka.dispatchers.service-dispatcher-16 INFO  - No metadata archiver defined in config
+2023-07-11 14:51:16,047 cromwell-system-akka.dispatchers.service-dispatcher-16 INFO  - No metadata deleter defined in config
+2023-07-11 14:51:16,164 cromwell-system-akka.dispatchers.service-dispatcher-12 INFO  - WriteMetadataActor configured to flush with batch size 200 and process rate 5 seconds.
+2023-07-11 14:51:16,164 cromwell-system-akka.dispatchers.engine-dispatcher-30 INFO  - CallCacheWriteActor configured to flush with batch size 100 and process rate 3 seconds.
+2023-07-11 14:51:16,213 cromwell-system-akka.dispatchers.engine-dispatcher-29 INFO  - JobRestartCheckTokenDispenser - Distribution rate: 50 per 1 seconds.
+2023-07-11 14:51:16,293 cromwell-system-akka.dispatchers.engine-dispatcher-29 INFO  - JobExecutionTokenDispenser - Distribution rate: 1 per 2 seconds.
+2023-07-11 14:51:16,394 cromwell-system-akka.dispatchers.engine-dispatcher-6 INFO  - SingleWorkflowRunnerActor: Version 82
+2023-07-11 14:51:16,398 cromwell-system-akka.dispatchers.engine-dispatcher-6 INFO  - SingleWorkflowRunnerActor: Submitting workflow
+2023-07-11 14:51:16,522 cromwell-system-akka.dispatchers.api-dispatcher-35 INFO  - Unspecified type (Unspecified version) workflow c996bd9a-6f85-414d-a2db-1d916c0c7475 submitted
+2023-07-11 14:51:16,543 cromwell-system-akka.dispatchers.engine-dispatcher-6 INFO  - SingleWorkflowRunnerActor: Workflow submitted UUID(c996bd9a-6f85-414d-a2db-1d916c0c7475)
+2023-07-11 14:51:16,557 cromwell-system-akka.dispatchers.engine-dispatcher-31 INFO  - 1 new workflows fetched by cromid-2cd5ff1: c996bd9a-6f85-414d-a2db-1d916c0c7475
+2023-07-11 14:51:16,559 cromwell-system-akka.dispatchers.engine-dispatcher-31 INFO  - WorkflowManagerActor: Starting workflow UUID(c996bd9a-6f85-414d-a2db-1d916c0c7475)
+2023-07-11 14:51:16,588 cromwell-system-akka.dispatchers.engine-dispatcher-31 INFO  - WorkflowManagerActor: Successfully started WorkflowActor-c996bd9a-6f85-414d-a2db-1d916c0c7475
+2023-07-11 14:51:16,589 cromwell-system-akka.dispatchers.engine-dispatcher-31 INFO  - Retrieved 1 workflows from the WorkflowStoreActor
+2023-07-11 14:51:16,589 cromwell-system-akka.dispatchers.engine-dispatcher-6 INFO  - WorkflowStoreHeartbeatWriteActor configured to flush with batch size 10000 and process rate 2 minutes.
+2023-07-11 14:51:16,771 cromwell-system-akka.dispatchers.engine-dispatcher-6 INFO  - MaterializeWorkflowDescriptorActor [UUID(c996bd9a)]: Parsing workflow as WDL 1.0
+2023-07-11 14:51:19,843 cromwell-system-akka.dispatchers.engine-dispatcher-6 INFO  - MaterializeWorkflowDescriptorActor [UUID(c996bd9a)]: Call-to-Backend assignments: atac.pool_blacklist -> slurm, atac.macs2_signal_track -> slurm, atac.call_peak_ppr1 -> slurm, atac.reproducibility_overlap -> slurm, atac.reproducibility_idr -> slurm, atac.tss_enrich -> slurm, atac.pool_ta_pr1 -> slurm, atac.fraglen_stat_pe -> slurm, atac.error_input_data -> slurm, atac.preseq -> slurm, atac.filter_no_dedup -> slurm, atac.idr_ppr -> slurm, atac.align_mito -> slurm, atac.count_signal_track_pooled -> slurm, atac.macs2_signal_track_pooled -> slurm, atac.xcor -> slurm, atac.frac_mito -> slurm, atac.call_peak_pooled -> slurm, atac.overlap_pr -> slurm, atac.pool_ta -> slurm, atac.compare_signal_to_roadmap -> slurm, atac.filter -> slurm, atac.gc_bias -> slurm, atac.call_peak -> slurm, atac.jsd -> slurm, atac.bam2ta -> slurm, atac.idr -> slurm, atac.idr_pr -> slurm, atac.align -> slurm, atac.call_peak_pr1 -> slurm, atac.call_peak_ppr2 -> slurm, atac.call_peak_pr2 -> slurm, atac.read_genome_tsv -> slurm, atac.qc_report -> slurm, atac.count_signal_track -> slurm, atac.pool_ta_pr2 -> slurm, atac.bam2ta_no_dedup -> slurm, atac.overlap -> slurm, atac.annot_enrich -> slurm, atac.overlap_ppr -> slurm, atac.spr -> slurm
+2023-07-11 14:51:20,075 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,079 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [preemptible, disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,079 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [preemptible, disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,079 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,079 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,079 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,079 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,079 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,079 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,079 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,080 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,080 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,080 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [preemptible, disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,080 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,080 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [preemptible, disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,080 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,080 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,080 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [preemptible, disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,080 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,080 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,081 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,081 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,081 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,081 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [preemptible, disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,081 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,082 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,082 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,082 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,082 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [preemptible, disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,082 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [preemptible, disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,082 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [preemptible, disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,082 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [preemptible, disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,082 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,082 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,082 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,082 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,082 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,083 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,083 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,083 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:20,083 cromwell-system-akka.dispatchers.backend-dispatcher-39 WARN  - slurm [UUID(c996bd9a)]: Key/s [disks, docker] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+2023-07-11 14:51:21,234 cromwell-system-akka.dispatchers.engine-dispatcher-28 INFO  - Not triggering log of restart checking token queue status. Effective log interval = None
+2023-07-11 14:51:21,304 cromwell-system-akka.dispatchers.engine-dispatcher-32 INFO  - Not triggering log of execution token queue status. Effective log interval = None
+2023-07-11 14:51:24,439 cromwell-system-akka.dispatchers.engine-dispatcher-31 INFO  - WorkflowExecutionActor-c996bd9a-6f85-414d-a2db-1d916c0c7475 [UUID(c996bd9a)]: Starting atac.read_genome_tsv
+2023-07-11 14:51:26,313 cromwell-system-akka.dispatchers.engine-dispatcher-8 INFO  - Assigned new job execution tokens to the following groups: c996bd9a: 1
+2023-07-11 14:51:26,433 cromwell-system-akka.dispatchers.engine-dispatcher-6 INFO  - BT-322 c996bd9a:atac.read_genome_tsv:-1:1 is eligible for call caching with read = true and write = true
+2023-07-11 14:51:26,500 cromwell-system-akka.dispatchers.engine-dispatcher-29 INFO  - BT-322 c996bd9a:atac.read_genome_tsv:-1:1 cache hit copying nomatch: could not find a suitable cache hit.
+2023-07-11 14:51:26,500 cromwell-system-akka.dispatchers.engine-dispatcher-29 INFO  - c996bd9a-6f85-414d-a2db-1d916c0c7475-EngineJobExecutionActor-atac.read_genome_tsv:NA:1 [UUID(c996bd9a)]: Could not copy a suitable cache hit for c996bd9a:atac.read_genome_tsv:-1:1. No copy attempts were made.
+2023-07-11 14:51:26,544 cromwell-system-akka.dispatchers.backend-dispatcher-49 WARN  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.read_genome_tsv:NA:1]: Unrecognized runtime attribute keys: disks, docker
+2023-07-11 14:51:26,641 cromwell-system-akka.dispatchers.backend-dispatcher-49 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.read_genome_tsv:NA:1]: `echo "$(basename /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-read_genome_tsv/inputs/-501775583/mm10.tsv)" > genome_name
+# create empty files for all entries
+touch ref_fa bowtie2_idx_tar chrsz gensz blacklist blacklist2
+touch ref_mito_fa
+touch bowtie2_mito_idx_tar
+touch tss tss_enrich # for backward compatibility
+touch dnase prom enh reg2map reg2map_bed roadmap_meta
+touch mito_chr_name
+touch regex_bfilt_peak_chr_name
+
+python <<CODE
+import os
+with open('/scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-read_genome_tsv/inputs/-501775583/mm10.tsv','r') as fp:
+    for line in fp:
+        arr = line.strip('\n').split('\t')
+        if arr:
+            key, val = arr
+            with open(key,'w') as fp2:
+                fp2.write(val)
+CODE`
+2023-07-11 14:51:27,022 cromwell-system-akka.dispatchers.backend-dispatcher-49 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.read_genome_tsv:NA:1]: executing: cat << EOF > /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-read_genome_tsv/execution/script.caper
+#!/bin/bash
+
+if [ 'true' == 'true' ] && [ 'conda' == 'singularity' ] || \
+   [ 'true' == 'false' ] && [ 'true' == 'true' ] && [ ! -z 'https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif' ]
+then
+    mkdir -p $HOME/.singularity/lock/
+    flock --exclusive --timeout 600 \
+        $HOME/.singularity/lock/`echo -n 'https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif' | md5sum | cut -d' ' -f1` \
+        singularity exec --containall https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif echo 'Successfully pulled https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif'
+
+    singularity exec --cleanenv --home=`dirname /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-read_genome_tsv` \
+        --bind=, \
+         \
+        https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-read_genome_tsv/execution/script
+
+elif [ 'true' == 'true' ] && [ 'conda' == 'conda' ] || \
+     [ 'true' == 'false' ] && [ 'true' == 'true' ] && [ ! -z 'encd-atac' ]
+then
+    conda run --name=encd-atac /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-read_genome_tsv/execution/script
+
+else
+    /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-read_genome_tsv/execution/script
+fi
+
+EOF
+
+for ITER in 1 2 3
+do
+    sbatch --export=ALL -J cromwell_c996bd9a_read_genome_tsv -D /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-read_genome_tsv -o /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-read_genome_tsv/execution/stdout -e /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-read_genome_tsv/execution/stderr \
+        -p akundaje  \
+        -n 1 --ntasks-per-node=1 --cpus-per-task=1 --mem=2048M --time=240  \
+         \
+        /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-read_genome_tsv/execution/script.caper && exit 0
+    sleep 30
+done
+exit 1
+2023-07-11 14:51:31,038 cromwell-system-akka.dispatchers.backend-dispatcher-48 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.read_genome_tsv:NA:1]: job id: 23827009
+2023-07-11 14:51:31,041 cromwell-system-akka.dispatchers.backend-dispatcher-48 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.read_genome_tsv:NA:1]: Cromwell will watch for an rc file but will *not* double-check whether this job is actually alive (unless Cromwell restarts)
+2023-07-11 14:51:31,043 cromwell-system-akka.dispatchers.backend-dispatcher-48 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.read_genome_tsv:NA:1]: Status change from - to Running
+2023-07-11 14:51:43,917 cromwell-system-akka.dispatchers.engine-dispatcher-32 INFO  - WorkflowExecutionActor-c996bd9a-6f85-414d-a2db-1d916c0c7475 [UUID(c996bd9a)]: Starting atac.spr
+2023-07-11 14:51:44,304 cromwell-system-akka.dispatchers.engine-dispatcher-32 INFO  - Assigned new job execution tokens to the following groups: c996bd9a: 1
+2023-07-11 14:51:44,319 cromwell-system-akka.dispatchers.engine-dispatcher-32 INFO  - BT-322 c996bd9a:atac.spr:0:1 is eligible for call caching with read = true and write = true
+2023-07-11 14:51:44,325 cromwell-system-akka.dispatchers.engine-dispatcher-30 INFO  - BT-322 c996bd9a:atac.spr:0:1 cache hit copying nomatch: could not find a suitable cache hit.
+2023-07-11 14:51:44,325 cromwell-system-akka.dispatchers.engine-dispatcher-30 INFO  - c996bd9a-6f85-414d-a2db-1d916c0c7475-EngineJobExecutionActor-atac.spr:0:1 [UUID(c996bd9a)]: Could not copy a suitable cache hit for c996bd9a:atac.spr:0:1. No copy attempts were made.
+2023-07-11 14:51:44,326 cromwell-system-akka.dispatchers.backend-dispatcher-50 WARN  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.spr:0:1]: Unrecognized runtime attribute keys: disks, docker
+2023-07-11 14:51:44,335 cromwell-system-akka.dispatchers.backend-dispatcher-50 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.spr:0:1]: `set -e
+python3 $(which encode_task_spr.py) \
+    /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-spr/shard-0/inputs/-756605190/panGamma_control.tagalign.gz \
+    --pseudoreplication-random-seed 0 \
+    --paired-end`
+2023-07-11 14:51:44,359 cromwell-system-akka.dispatchers.backend-dispatcher-50 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.spr:0:1]: executing: cat << EOF > /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-spr/shard-0/execution/script.caper
+#!/bin/bash
+
+if [ 'true' == 'true' ] && [ 'conda' == 'singularity' ] || \
+   [ 'true' == 'false' ] && [ 'true' == 'true' ] && [ ! -z 'https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif' ]
+then
+    mkdir -p $HOME/.singularity/lock/
+    flock --exclusive --timeout 600 \
+        $HOME/.singularity/lock/`echo -n 'https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif' | md5sum | cut -d' ' -f1` \
+        singularity exec --containall https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif echo 'Successfully pulled https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif'
+
+    singularity exec --cleanenv --home=`dirname /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-spr/shard-0` \
+        --bind=, \
+         \
+        https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-spr/shard-0/execution/script
+
+elif [ 'true' == 'true' ] && [ 'conda' == 'conda' ] || \
+     [ 'true' == 'false' ] && [ 'true' == 'true' ] && [ ! -z 'encd-atac' ]
+then
+    conda run --name=encd-atac /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-spr/shard-0/execution/script
+
+else
+    /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-spr/shard-0/execution/script
+fi
+
+EOF
+
+for ITER in 1 2 3
+do
+    sbatch --export=ALL -J cromwell_c996bd9a_spr -D /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-spr/shard-0 -o /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-spr/shard-0/execution/stdout -e /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-spr/shard-0/execution/stderr \
+        -p akundaje  \
+        -n 1 --ntasks-per-node=1 --cpus-per-task=1 --mem=5439M --time=240  \
+         \
+        /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-spr/shard-0/execution/script.caper && exit 0
+    sleep 30
+done
+exit 1
+2023-07-11 14:51:51,026 cromwell-system-akka.dispatchers.backend-dispatcher-48 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.spr:0:1]: job id: 23827013
+2023-07-11 14:51:51,031 cromwell-system-akka.dispatchers.backend-dispatcher-48 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.spr:0:1]: Cromwell will watch for an rc file but will *not* double-check whether this job is actually alive (unless Cromwell restarts)
+2023-07-11 14:51:51,031 cromwell-system-akka.dispatchers.backend-dispatcher-48 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.spr:0:1]: Status change from - to Running
+2023-07-11 14:53:52,028 cromwell-system-akka.dispatchers.backend-dispatcher-48 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.read_genome_tsv:NA:1]: Status change from Running to Done
+2023-07-11 14:53:58,546 cromwell-system-akka.dispatchers.engine-dispatcher-31 INFO  - WorkflowExecutionActor-c996bd9a-6f85-414d-a2db-1d916c0c7475 [UUID(c996bd9a)]: Starting atac.macs2_signal_track
+2023-07-11 14:54:00,305 cromwell-system-akka.dispatchers.engine-dispatcher-31 INFO  - Assigned new job execution tokens to the following groups: c996bd9a: 1
+2023-07-11 14:54:00,314 cromwell-system-akka.dispatchers.engine-dispatcher-31 INFO  - BT-322 c996bd9a:atac.macs2_signal_track:0:1 is eligible for call caching with read = true and write = true
+2023-07-11 14:54:00,321 cromwell-system-akka.dispatchers.engine-dispatcher-33 INFO  - BT-322 c996bd9a:atac.macs2_signal_track:0:1 cache hit copying nomatch: could not find a suitable cache hit.
+2023-07-11 14:54:00,321 cromwell-system-akka.dispatchers.engine-dispatcher-33 INFO  - c996bd9a-6f85-414d-a2db-1d916c0c7475-EngineJobExecutionActor-atac.macs2_signal_track:0:1 [UUID(c996bd9a)]: Could not copy a suitable cache hit for c996bd9a:atac.macs2_signal_track:0:1. No copy attempts were made.
+2023-07-11 14:54:00,321 cromwell-system-akka.dispatchers.backend-dispatcher-56 WARN  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.macs2_signal_track:0:1]: Unrecognized runtime attribute keys: preemptible, disks, docker
+2023-07-11 14:54:00,330 cromwell-system-akka.dispatchers.backend-dispatcher-56 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.macs2_signal_track:0:1]: `set -e
+python3 $(which encode_task_macs2_signal_track_atac.py) \
+    /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-macs2_signal_track/shard-0/inputs/-756605190/panGamma_control.tagalign.gz \
+    --gensz mm \
+    --chrsz /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-macs2_signal_track/shard-0/inputs/-501775583/mm10_no_alt.chrom.sizes.tsv \
+    --pval-thresh 0.01 \
+    --smooth-win 150 \
+    --mem-gb 4.786960314959288`
+2023-07-11 14:54:00,346 cromwell-system-akka.dispatchers.backend-dispatcher-56 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.macs2_signal_track:0:1]: executing: cat << EOF > /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-macs2_signal_track/shard-0/execution/script.caper
+#!/bin/bash
+
+if [ 'true' == 'true' ] && [ 'conda' == 'singularity' ] || \
+   [ 'true' == 'false' ] && [ 'true' == 'true' ] && [ ! -z 'https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif' ]
+then
+    mkdir -p $HOME/.singularity/lock/
+    flock --exclusive --timeout 600 \
+        $HOME/.singularity/lock/`echo -n 'https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif' | md5sum | cut -d' ' -f1` \
+        singularity exec --containall https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif echo 'Successfully pulled https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif'
+
+    singularity exec --cleanenv --home=`dirname /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-macs2_signal_track/shard-0` \
+        --bind=, \
+         \
+        https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-macs2_signal_track/shard-0/execution/script
+
+elif [ 'true' == 'true' ] && [ 'conda' == 'conda' ] || \
+     [ 'true' == 'false' ] && [ 'true' == 'true' ] && [ ! -z 'encd-atac-macs2' ]
+then
+    conda run --name=encd-atac-macs2 /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-macs2_signal_track/shard-0/execution/script
+
+else
+    /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-macs2_signal_track/shard-0/execution/script
+fi
+
+EOF
+
+for ITER in 1 2 3
+do
+    sbatch --export=ALL -J cromwell_c996bd9a_macs2_signal_track -D /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-macs2_signal_track/shard-0 -o /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-macs2_signal_track/shard-0/execution/stdout -e /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-macs2_signal_track/shard-0/execution/stderr \
+        -p akundaje  \
+        -n 1 --ntasks-per-node=1 --cpus-per-task=1 --mem=4901M --time=1440  \
+         \
+        /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-macs2_signal_track/shard-0/execution/script.caper && exit 0
+    sleep 30
+done
+exit 1
+2023-07-11 14:54:02,627 cromwell-system-akka.dispatchers.engine-dispatcher-6 INFO  - WorkflowExecutionActor-c996bd9a-6f85-414d-a2db-1d916c0c7475 [UUID(c996bd9a)]: Starting atac.call_peak
+2023-07-11 14:54:04,304 cromwell-system-akka.dispatchers.engine-dispatcher-31 INFO  - Assigned new job execution tokens to the following groups: c996bd9a: 1
+2023-07-11 14:54:04,315 cromwell-system-akka.dispatchers.engine-dispatcher-31 INFO  - BT-322 c996bd9a:atac.call_peak:0:1 is eligible for call caching with read = true and write = true
+2023-07-11 14:54:04,320 cromwell-system-akka.dispatchers.engine-dispatcher-7 INFO  - BT-322 c996bd9a:atac.call_peak:0:1 cache hit copying nomatch: could not find a suitable cache hit.
+2023-07-11 14:54:04,320 cromwell-system-akka.dispatchers.engine-dispatcher-7 INFO  - c996bd9a-6f85-414d-a2db-1d916c0c7475-EngineJobExecutionActor-atac.call_peak:0:1 [UUID(c996bd9a)]: Could not copy a suitable cache hit for c996bd9a:atac.call_peak:0:1. No copy attempts were made.
+2023-07-11 14:54:04,322 cromwell-system-akka.dispatchers.backend-dispatcher-78 WARN  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.call_peak:0:1]: Unrecognized runtime attribute keys: preemptible, disks, docker
+2023-07-11 14:54:04,333 cromwell-system-akka.dispatchers.backend-dispatcher-78 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.call_peak:0:1]: `set -e
+
+if [ 'macs2' == 'macs2' ]; then
+    python3 $(which encode_task_macs2_atac.py) \
+        /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak/shard-0/inputs/-756605190/panGamma_control.tagalign.gz \
+        --gensz mm \
+        --chrsz /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak/shard-0/inputs/-501775583/mm10_no_alt.chrom.sizes.tsv \
+        --cap-num-peak 300000 \
+        --pval-thresh 0.01 \
+        --smooth-win 150 \
+        --mem-gb 4.262320104986429
+fi
+
+python3 $(which encode_task_post_call_peak_atac.py) \
+    $(ls *Peak.gz) \
+    --ta /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak/shard-0/inputs/-756605190/panGamma_control.tagalign.gz \
+    --regex-bfilt-peak-chr-name 'chr[\dXY]+' \
+    --chrsz /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak/shard-0/inputs/-501775583/mm10_no_alt.chrom.sizes.tsv \
+    --peak-type narrowPeak \
+    --blacklist /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak/shard-0/inputs/-501775583/ENCFF547MET.bed.gz`
+2023-07-11 14:54:04,346 cromwell-system-akka.dispatchers.backend-dispatcher-78 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.call_peak:0:1]: executing: cat << EOF > /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak/shard-0/execution/script.caper
+#!/bin/bash
+
+if [ 'true' == 'true' ] && [ 'conda' == 'singularity' ] || \
+   [ 'true' == 'false' ] && [ 'true' == 'true' ] && [ ! -z 'https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif' ]
+then
+    mkdir -p $HOME/.singularity/lock/
+    flock --exclusive --timeout 600 \
+        $HOME/.singularity/lock/`echo -n 'https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif' | md5sum | cut -d' ' -f1` \
+        singularity exec --containall https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif echo 'Successfully pulled https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif'
+
+    singularity exec --cleanenv --home=`dirname /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak/shard-0` \
+        --bind=, \
+         \
+        https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak/shard-0/execution/script
+
+elif [ 'true' == 'true' ] && [ 'conda' == 'conda' ] || \
+     [ 'true' == 'false' ] && [ 'true' == 'true' ] && [ ! -z 'encd-atac-macs2' ]
+then
+    conda run --name=encd-atac-macs2 /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak/shard-0/execution/script
+
+else
+    /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak/shard-0/execution/script
+fi
+
+EOF
+
+for ITER in 1 2 3
+do
+    sbatch --export=ALL -J cromwell_c996bd9a_call_peak -D /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak/shard-0 -o /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak/shard-0/execution/stdout -e /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak/shard-0/execution/stderr \
+        -p akundaje  \
+        -n 1 --ntasks-per-node=1 --cpus-per-task=1 --mem=4364M --time=1440  \
+         \
+        /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak/shard-0/execution/script.caper && exit 0
+    sleep 30
+done
+exit 1
+2023-07-11 14:54:04,676 cromwell-system-akka.dispatchers.engine-dispatcher-6 INFO  - WorkflowExecutionActor-c996bd9a-6f85-414d-a2db-1d916c0c7475 [UUID(c996bd9a)]: Starting atac.annot_enrich
+2023-07-11 14:54:06,027 cromwell-system-akka.dispatchers.backend-dispatcher-56 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.call_peak:0:1]: job id: 23827094
+2023-07-11 14:54:06,028 cromwell-system-akka.dispatchers.backend-dispatcher-77 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.macs2_signal_track:0:1]: job id: 23827092
+2023-07-11 14:54:06,029 cromwell-system-akka.dispatchers.backend-dispatcher-78 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.macs2_signal_track:0:1]: Cromwell will watch for an rc file but will *not* double-check whether this job is actually alive (unless Cromwell restarts)
+2023-07-11 14:54:06,029 cromwell-system-akka.dispatchers.backend-dispatcher-86 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.call_peak:0:1]: Cromwell will watch for an rc file but will *not* double-check whether this job is actually alive (unless Cromwell restarts)
+2023-07-11 14:54:06,030 cromwell-system-akka.dispatchers.backend-dispatcher-78 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.macs2_signal_track:0:1]: Status change from - to Running
+2023-07-11 14:54:06,030 cromwell-system-akka.dispatchers.backend-dispatcher-86 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.call_peak:0:1]: Status change from - to Running
+2023-07-11 14:54:06,304 cromwell-system-akka.dispatchers.engine-dispatcher-6 INFO  - Assigned new job execution tokens to the following groups: c996bd9a: 1
+2023-07-11 14:54:06,310 cromwell-system-akka.dispatchers.engine-dispatcher-7 INFO  - BT-322 c996bd9a:atac.annot_enrich:0:1 is eligible for call caching with read = true and write = true
+2023-07-11 14:54:06,313 cromwell-system-akka.dispatchers.engine-dispatcher-29 INFO  - BT-322 c996bd9a:atac.annot_enrich:0:1 cache hit copying nomatch: could not find a suitable cache hit.
+2023-07-11 14:54:06,313 cromwell-system-akka.dispatchers.engine-dispatcher-29 INFO  - c996bd9a-6f85-414d-a2db-1d916c0c7475-EngineJobExecutionActor-atac.annot_enrich:0:1 [UUID(c996bd9a)]: Could not copy a suitable cache hit for c996bd9a:atac.annot_enrich:0:1. No copy attempts were made.
+2023-07-11 14:54:06,315 cromwell-system-akka.dispatchers.backend-dispatcher-89 WARN  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.annot_enrich:0:1]: Unrecognized runtime attribute keys: disks, docker
+2023-07-11 14:54:06,327 cromwell-system-akka.dispatchers.backend-dispatcher-89 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.annot_enrich:0:1]: `set -e
+python3 $(which encode_task_annot_enrich.py) \
+    --ta /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-annot_enrich/shard-0/inputs/-756605190/panGamma_control.tagalign.gz \
+    --blacklist /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-annot_enrich/shard-0/inputs/-501775583/ENCFF547MET.bed.gz \
+    --dnase /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-annot_enrich/shard-0/inputs/-1399338830/ENCFF015KVI.bed.gz \
+    --prom /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-annot_enrich/shard-0/inputs/-1399338830/ENCFF206BQS.bed.gz \
+    --enh /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-annot_enrich/shard-0/inputs/-1399338830/ENCFF580RGZ.bed.gz`
+2023-07-11 14:54:06,339 cromwell-system-akka.dispatchers.backend-dispatcher-89 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.annot_enrich:0:1]: executing: cat << EOF > /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-annot_enrich/shard-0/execution/script.caper
+#!/bin/bash
+
+if [ 'true' == 'true' ] && [ 'conda' == 'singularity' ] || \
+   [ 'true' == 'false' ] && [ 'true' == 'true' ] && [ ! -z 'https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif' ]
+then
+    mkdir -p $HOME/.singularity/lock/
+    flock --exclusive --timeout 600 \
+        $HOME/.singularity/lock/`echo -n 'https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif' | md5sum | cut -d' ' -f1` \
+        singularity exec --containall https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif echo 'Successfully pulled https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif'
+
+    singularity exec --cleanenv --home=`dirname /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-annot_enrich/shard-0` \
+        --bind=, \
+         \
+        https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-annot_enrich/shard-0/execution/script
+
+elif [ 'true' == 'true' ] && [ 'conda' == 'conda' ] || \
+     [ 'true' == 'false' ] && [ 'true' == 'true' ] && [ ! -z 'encd-atac' ]
+then
+    conda run --name=encd-atac /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-annot_enrich/shard-0/execution/script
+
+else
+    /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-annot_enrich/shard-0/execution/script
+fi
+
+EOF
+
+for ITER in 1 2 3
+do
+    sbatch --export=ALL -J cromwell_c996bd9a_annot_enrich -D /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-annot_enrich/shard-0 -o /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-annot_enrich/shard-0/execution/stdout -e /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-annot_enrich/shard-0/execution/stderr \
+        -p akundaje  \
+        -n 1 --ntasks-per-node=1 --cpus-per-task=1 --mem=8192M --time=240  \
+         \
+        /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-annot_enrich/shard-0/execution/script.caper && exit 0
+    sleep 30
+done
+exit 1
+2023-07-11 14:54:11,025 cromwell-system-akka.dispatchers.backend-dispatcher-56 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.annot_enrich:0:1]: job id: 23827099
+2023-07-11 14:54:11,026 cromwell-system-akka.dispatchers.backend-dispatcher-56 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.annot_enrich:0:1]: Cromwell will watch for an rc file but will *not* double-check whether this job is actually alive (unless Cromwell restarts)
+2023-07-11 14:54:11,026 cromwell-system-akka.dispatchers.backend-dispatcher-56 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.annot_enrich:0:1]: Status change from - to Running
+2023-07-11 14:55:06,035 cromwell-system-akka.dispatchers.backend-dispatcher-86 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.spr:0:1]: Status change from Running to Done
+2023-07-11 14:55:13,015 cromwell-system-akka.dispatchers.engine-dispatcher-33 INFO  - WorkflowExecutionActor-c996bd9a-6f85-414d-a2db-1d916c0c7475 [UUID(c996bd9a)]: Starting atac.call_peak_pr1, atac.call_peak_pr2
+2023-07-11 14:55:14,305 cromwell-system-akka.dispatchers.engine-dispatcher-28 INFO  - Assigned new job execution tokens to the following groups: c996bd9a: 1
+2023-07-11 14:55:14,315 cromwell-system-akka.dispatchers.engine-dispatcher-28 INFO  - BT-322 c996bd9a:atac.call_peak_pr1:0:1 is eligible for call caching with read = true and write = true
+2023-07-11 14:55:14,320 cromwell-system-akka.dispatchers.engine-dispatcher-33 INFO  - BT-322 c996bd9a:atac.call_peak_pr1:0:1 cache hit copying nomatch: could not find a suitable cache hit.
+2023-07-11 14:55:14,321 cromwell-system-akka.dispatchers.engine-dispatcher-33 INFO  - c996bd9a-6f85-414d-a2db-1d916c0c7475-EngineJobExecutionActor-atac.call_peak_pr1:0:1 [UUID(c996bd9a)]: Could not copy a suitable cache hit for c996bd9a:atac.call_peak_pr1:0:1. No copy attempts were made.
+2023-07-11 14:55:14,322 cromwell-system-akka.dispatchers.backend-dispatcher-86 WARN  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.call_peak_pr1:0:1]: Unrecognized runtime attribute keys: preemptible, disks, docker
+2023-07-11 14:55:14,343 cromwell-system-akka.dispatchers.backend-dispatcher-86 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.call_peak_pr1:0:1]: `set -e
+
+if [ 'macs2' == 'macs2' ]; then
+    python3 $(which encode_task_macs2_atac.py) \
+        /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr1/shard-0/inputs/-875710445/panGamma_control.tagalign.gz.pr1.tagAlign.gz \
+        --gensz mm \
+        --chrsz /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr1/shard-0/inputs/-501775583/mm10_no_alt.chrom.sizes.tsv \
+        --cap-num-peak 300000 \
+        --pval-thresh 0.01 \
+        --smooth-win 150 \
+        --mem-gb 4.172002177685499
+fi
+
+python3 $(which encode_task_post_call_peak_atac.py) \
+    $(ls *Peak.gz) \
+    --ta /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr1/shard-0/inputs/-875710445/panGamma_control.tagalign.gz.pr1.tagAlign.gz \
+    --regex-bfilt-peak-chr-name 'chr[\dXY]+' \
+    --chrsz /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr1/shard-0/inputs/-501775583/mm10_no_alt.chrom.sizes.tsv \
+    --peak-type narrowPeak \
+    --blacklist /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr1/shard-0/inputs/-501775583/ENCFF547MET.bed.gz`
+2023-07-11 14:55:14,355 cromwell-system-akka.dispatchers.backend-dispatcher-86 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.call_peak_pr1:0:1]: executing: cat << EOF > /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr1/shard-0/execution/script.caper
+#!/bin/bash
+
+if [ 'true' == 'true' ] && [ 'conda' == 'singularity' ] || \
+   [ 'true' == 'false' ] && [ 'true' == 'true' ] && [ ! -z 'https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif' ]
+then
+    mkdir -p $HOME/.singularity/lock/
+    flock --exclusive --timeout 600 \
+        $HOME/.singularity/lock/`echo -n 'https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif' | md5sum | cut -d' ' -f1` \
+        singularity exec --containall https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif echo 'Successfully pulled https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif'
+
+    singularity exec --cleanenv --home=`dirname /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr1/shard-0` \
+        --bind=, \
+         \
+        https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr1/shard-0/execution/script
+
+elif [ 'true' == 'true' ] && [ 'conda' == 'conda' ] || \
+     [ 'true' == 'false' ] && [ 'true' == 'true' ] && [ ! -z 'encd-atac-macs2' ]
+then
+    conda run --name=encd-atac-macs2 /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr1/shard-0/execution/script
+
+else
+    /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr1/shard-0/execution/script
+fi
+
+EOF
+
+for ITER in 1 2 3
+do
+    sbatch --export=ALL -J cromwell_c996bd9a_call_peak_pr1 -D /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr1/shard-0 -o /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr1/shard-0/execution/stdout -e /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr1/shard-0/execution/stderr \
+        -p akundaje  \
+        -n 1 --ntasks-per-node=1 --cpus-per-task=1 --mem=4272M --time=1440  \
+         \
+        /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr1/shard-0/execution/script.caper && exit 0
+    sleep 30
+done
+exit 1
+2023-07-11 14:55:16,027 cromwell-system-akka.dispatchers.backend-dispatcher-87 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.call_peak_pr1:0:1]: job id: 23827164
+2023-07-11 14:55:16,028 cromwell-system-akka.dispatchers.backend-dispatcher-78 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.call_peak_pr1:0:1]: Cromwell will watch for an rc file but will *not* double-check whether this job is actually alive (unless Cromwell restarts)
+2023-07-11 14:55:16,028 cromwell-system-akka.dispatchers.backend-dispatcher-56 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.call_peak_pr1:0:1]: Status change from - to Running
+2023-07-11 14:55:16,304 cromwell-system-akka.dispatchers.engine-dispatcher-28 INFO  - Assigned new job execution tokens to the following groups: c996bd9a: 1
+2023-07-11 14:55:16,311 cromwell-system-akka.dispatchers.engine-dispatcher-28 INFO  - BT-322 c996bd9a:atac.call_peak_pr2:0:1 is eligible for call caching with read = true and write = true
+2023-07-11 14:55:16,318 cromwell-system-akka.dispatchers.engine-dispatcher-33 INFO  - BT-322 c996bd9a:atac.call_peak_pr2:0:1 cache hit copying nomatch: could not find a suitable cache hit.
+2023-07-11 14:55:16,318 cromwell-system-akka.dispatchers.engine-dispatcher-33 INFO  - c996bd9a-6f85-414d-a2db-1d916c0c7475-EngineJobExecutionActor-atac.call_peak_pr2:0:1 [UUID(c996bd9a)]: Could not copy a suitable cache hit for c996bd9a:atac.call_peak_pr2:0:1. No copy attempts were made.
+2023-07-11 14:55:16,318 cromwell-system-akka.dispatchers.backend-dispatcher-48 WARN  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.call_peak_pr2:0:1]: Unrecognized runtime attribute keys: preemptible, disks, docker
+2023-07-11 14:55:16,333 cromwell-system-akka.dispatchers.backend-dispatcher-48 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.call_peak_pr2:0:1]: `set -e
+
+if [ 'macs2' == 'macs2' ]; then
+    python3 $(which encode_task_macs2_atac.py) \
+        /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr2/shard-0/inputs/1455635548/panGamma_control.tagalign.gz.pr2.tagAlign.gz \
+        --gensz mm \
+        --chrsz /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr2/shard-0/inputs/-501775583/mm10_no_alt.chrom.sizes.tsv \
+        --cap-num-peak 300000 \
+        --pval-thresh 0.01 \
+        --smooth-win 150 \
+        --mem-gb 4.172003023326397
+fi
+
+python3 $(which encode_task_post_call_peak_atac.py) \
+    $(ls *Peak.gz) \
+    --ta /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr2/shard-0/inputs/1455635548/panGamma_control.tagalign.gz.pr2.tagAlign.gz \
+    --regex-bfilt-peak-chr-name 'chr[\dXY]+' \
+    --chrsz /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr2/shard-0/inputs/-501775583/mm10_no_alt.chrom.sizes.tsv \
+    --peak-type narrowPeak \
+    --blacklist /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr2/shard-0/inputs/-501775583/ENCFF547MET.bed.gz`
+2023-07-11 14:55:16,358 cromwell-system-akka.dispatchers.backend-dispatcher-48 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.call_peak_pr2:0:1]: executing: cat << EOF > /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr2/shard-0/execution/script.caper
+#!/bin/bash
+
+if [ 'true' == 'true' ] && [ 'conda' == 'singularity' ] || \
+   [ 'true' == 'false' ] && [ 'true' == 'true' ] && [ ! -z 'https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif' ]
+then
+    mkdir -p $HOME/.singularity/lock/
+    flock --exclusive --timeout 600 \
+        $HOME/.singularity/lock/`echo -n 'https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif' | md5sum | cut -d' ' -f1` \
+        singularity exec --containall https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif echo 'Successfully pulled https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif'
+
+    singularity exec --cleanenv --home=`dirname /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr2/shard-0` \
+        --bind=, \
+         \
+        https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr2/shard-0/execution/script
+
+elif [ 'true' == 'true' ] && [ 'conda' == 'conda' ] || \
+     [ 'true' == 'false' ] && [ 'true' == 'true' ] && [ ! -z 'encd-atac-macs2' ]
+then
+    conda run --name=encd-atac-macs2 /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr2/shard-0/execution/script
+
+else
+    /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr2/shard-0/execution/script
+fi
+
+EOF
+
+for ITER in 1 2 3
+do
+    sbatch --export=ALL -J cromwell_c996bd9a_call_peak_pr2 -D /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr2/shard-0 -o /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr2/shard-0/execution/stdout -e /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr2/shard-0/execution/stderr \
+        -p akundaje  \
+        -n 1 --ntasks-per-node=1 --cpus-per-task=1 --mem=4272M --time=1440  \
+         \
+        /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-call_peak_pr2/shard-0/execution/script.caper && exit 0
+    sleep 30
+done
+exit 1
+2023-07-11 14:55:21,026 cromwell-system-akka.dispatchers.backend-dispatcher-87 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.call_peak_pr2:0:1]: job id: 23827165
+2023-07-11 14:55:21,027 cromwell-system-akka.dispatchers.backend-dispatcher-86 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.call_peak_pr2:0:1]: Cromwell will watch for an rc file but will *not* double-check whether this job is actually alive (unless Cromwell restarts)
+2023-07-11 14:55:21,027 cromwell-system-akka.dispatchers.backend-dispatcher-86 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.call_peak_pr2:0:1]: Status change from - to Running
+2023-07-11 14:59:46,525 cromwell-system-akka.dispatchers.backend-dispatcher-48 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.annot_enrich:0:1]: Status change from Running to Done
+2023-07-11 15:00:45,105 cromwell-system-akka.dispatchers.backend-dispatcher-48 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.call_peak_pr2:0:1]: Status change from Running to Done
+2023-07-11 15:01:40,488 cromwell-system-akka.dispatchers.backend-dispatcher-182 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.call_peak_pr1:0:1]: Status change from Running to Done
+2023-07-11 15:02:17,296 cromwell-system-akka.dispatchers.backend-dispatcher-182 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.call_peak:0:1]: Status change from Running to Done
+2023-07-11 15:02:23,396 cromwell-system-akka.dispatchers.engine-dispatcher-28 INFO  - WorkflowExecutionActor-c996bd9a-6f85-414d-a2db-1d916c0c7475 [UUID(c996bd9a)]: Starting atac.overlap_pr, atac.idr_pr
+2023-07-11 15:02:24,305 cromwell-system-akka.dispatchers.engine-dispatcher-28 INFO  - Assigned new job execution tokens to the following groups: c996bd9a: 1
+2023-07-11 15:02:24,311 cromwell-system-akka.dispatchers.engine-dispatcher-28 INFO  - BT-322 c996bd9a:atac.overlap_pr:0:1 is eligible for call caching with read = true and write = true
+2023-07-11 15:02:24,315 cromwell-system-akka.dispatchers.engine-dispatcher-7 INFO  - BT-322 c996bd9a:atac.overlap_pr:0:1 cache hit copying nomatch: could not find a suitable cache hit.
+2023-07-11 15:02:24,316 cromwell-system-akka.dispatchers.engine-dispatcher-7 INFO  - c996bd9a-6f85-414d-a2db-1d916c0c7475-EngineJobExecutionActor-atac.overlap_pr:0:1 [UUID(c996bd9a)]: Could not copy a suitable cache hit for c996bd9a:atac.overlap_pr:0:1. No copy attempts were made.
+2023-07-11 15:02:24,317 cromwell-system-akka.dispatchers.backend-dispatcher-211 WARN  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.overlap_pr:0:1]: Unrecognized runtime attribute keys: disks, docker
+2023-07-11 15:02:24,333 cromwell-system-akka.dispatchers.backend-dispatcher-211 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.overlap_pr:0:1]: `set -e
+touch null 
+python3 $(which encode_task_overlap.py) \
+    /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-overlap_pr/shard-0/inputs/-57536674/panGamma_control.tagalign.gz.pr1.pval0.01.300K.narrowPeak.gz /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-overlap_pr/shard-0/inputs/572921951/panGamma_control.tagalign.gz.pr2.pval0.01.300K.narrowPeak.gz /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-overlap_pr/shard-0/inputs/1561009582/panGamma_control.tagalign.gz.pval0.01.300K.narrowPeak.gz \
+    --prefix rep1-pr1_vs_rep1-pr2 \
+    --peak-type narrowPeak \
+    --chrsz /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-overlap_pr/shard-0/inputs/-501775583/mm10_no_alt.chrom.sizes.tsv \
+    --blacklist /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-overlap_pr/shard-0/inputs/-501775583/ENCFF547MET.bed.gz \
+    --nonamecheck \
+    --regex-bfilt-peak-chr-name 'chr[\dXY]+' \
+    --ta /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-overlap_pr/shard-0/inputs/-756605190/panGamma_control.tagalign.gz`
+2023-07-11 15:02:24,345 cromwell-system-akka.dispatchers.backend-dispatcher-211 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.overlap_pr:0:1]: executing: cat << EOF > /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-overlap_pr/shard-0/execution/script.caper
+#!/bin/bash
+
+if [ 'true' == 'true' ] && [ 'conda' == 'singularity' ] || \
+   [ 'true' == 'false' ] && [ 'true' == 'true' ] && [ ! -z 'https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif' ]
+then
+    mkdir -p $HOME/.singularity/lock/
+    flock --exclusive --timeout 600 \
+        $HOME/.singularity/lock/`echo -n 'https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif' | md5sum | cut -d' ' -f1` \
+        singularity exec --containall https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif echo 'Successfully pulled https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif'
+
+    singularity exec --cleanenv --home=`dirname /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-overlap_pr/shard-0` \
+        --bind=, \
+         \
+        https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-overlap_pr/shard-0/execution/script
+
+elif [ 'true' == 'true' ] && [ 'conda' == 'conda' ] || \
+     [ 'true' == 'false' ] && [ 'true' == 'true' ] && [ ! -z 'encd-atac' ]
+then
+    conda run --name=encd-atac /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-overlap_pr/shard-0/execution/script
+
+else
+    /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-overlap_pr/shard-0/execution/script
+fi
+
+EOF
+
+for ITER in 1 2 3
+do
+    sbatch --export=ALL -J cromwell_c996bd9a_overlap_pr -D /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-overlap_pr/shard-0 -o /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-overlap_pr/shard-0/execution/stdout -e /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-overlap_pr/shard-0/execution/stderr \
+        -p akundaje  \
+        -n 1 --ntasks-per-node=1 --cpus-per-task=1 --mem=4096M --time=240  \
+         \
+        /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-overlap_pr/shard-0/execution/script.caper && exit 0
+    sleep 30
+done
+exit 1
+2023-07-11 15:02:26,025 cromwell-system-akka.dispatchers.backend-dispatcher-211 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.overlap_pr:0:1]: job id: 23827539
+2023-07-11 15:02:26,026 cromwell-system-akka.dispatchers.backend-dispatcher-211 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.overlap_pr:0:1]: Cromwell will watch for an rc file but will *not* double-check whether this job is actually alive (unless Cromwell restarts)
+2023-07-11 15:02:26,026 cromwell-system-akka.dispatchers.backend-dispatcher-211 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.overlap_pr:0:1]: Status change from - to Running
+2023-07-11 15:02:26,304 cromwell-system-akka.dispatchers.engine-dispatcher-28 INFO  - Assigned new job execution tokens to the following groups: c996bd9a: 1
+2023-07-11 15:02:26,309 cromwell-system-akka.dispatchers.engine-dispatcher-8 INFO  - BT-322 c996bd9a:atac.idr_pr:0:1 is eligible for call caching with read = true and write = true
+2023-07-11 15:02:26,312 cromwell-system-akka.dispatchers.engine-dispatcher-28 INFO  - BT-322 c996bd9a:atac.idr_pr:0:1 cache hit copying nomatch: could not find a suitable cache hit.
+2023-07-11 15:02:26,314 cromwell-system-akka.dispatchers.engine-dispatcher-28 INFO  - c996bd9a-6f85-414d-a2db-1d916c0c7475-EngineJobExecutionActor-atac.idr_pr:0:1 [UUID(c996bd9a)]: Could not copy a suitable cache hit for c996bd9a:atac.idr_pr:0:1. No copy attempts were made.
+2023-07-11 15:02:26,314 cromwell-system-akka.dispatchers.backend-dispatcher-211 WARN  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.idr_pr:0:1]: Unrecognized runtime attribute keys: disks, docker
+2023-07-11 15:02:26,328 cromwell-system-akka.dispatchers.backend-dispatcher-211 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.idr_pr:0:1]: `set -e
+touch null
+python3 $(which encode_task_idr.py) \
+    /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-idr_pr/shard-0/inputs/-57536674/panGamma_control.tagalign.gz.pr1.pval0.01.300K.narrowPeak.gz /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-idr_pr/shard-0/inputs/572921951/panGamma_control.tagalign.gz.pr2.pval0.01.300K.narrowPeak.gz /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-idr_pr/shard-0/inputs/1561009582/panGamma_control.tagalign.gz.pval0.01.300K.narrowPeak.gz \
+    --prefix rep1-pr1_vs_rep1-pr2 \
+    --idr-thresh 0.05 \
+    --peak-type narrowPeak \
+    --idr-rank p.value \
+    --chrsz /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-idr_pr/shard-0/inputs/-501775583/mm10_no_alt.chrom.sizes.tsv \
+    --blacklist /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-idr_pr/shard-0/inputs/-501775583/ENCFF547MET.bed.gz \
+    --regex-bfilt-peak-chr-name 'chr[\dXY]+' \
+    --ta /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-idr_pr/shard-0/inputs/-756605190/panGamma_control.tagalign.gz`
+2023-07-11 15:02:26,349 cromwell-system-akka.dispatchers.backend-dispatcher-211 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.idr_pr:0:1]: executing: cat << EOF > /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-idr_pr/shard-0/execution/script.caper
+#!/bin/bash
+
+if [ 'true' == 'true' ] && [ 'conda' == 'singularity' ] || \
+   [ 'true' == 'false' ] && [ 'true' == 'true' ] && [ ! -z 'https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif' ]
+then
+    mkdir -p $HOME/.singularity/lock/
+    flock --exclusive --timeout 600 \
+        $HOME/.singularity/lock/`echo -n 'https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif' | md5sum | cut -d' ' -f1` \
+        singularity exec --containall https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif echo 'Successfully pulled https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif'
+
+    singularity exec --cleanenv --home=`dirname /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-idr_pr/shard-0` \
+        --bind=, \
+         \
+        https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-idr_pr/shard-0/execution/script
+
+elif [ 'true' == 'true' ] && [ 'conda' == 'conda' ] || \
+     [ 'true' == 'false' ] && [ 'true' == 'true' ] && [ ! -z 'encd-atac' ]
+then
+    conda run --name=encd-atac /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-idr_pr/shard-0/execution/script
+
+else
+    /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-idr_pr/shard-0/execution/script
+fi
+
+EOF
+
+for ITER in 1 2 3
+do
+    sbatch --export=ALL -J cromwell_c996bd9a_idr_pr -D /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-idr_pr/shard-0 -o /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-idr_pr/shard-0/execution/stdout -e /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-idr_pr/shard-0/execution/stderr \
+        -p akundaje  \
+        -n 1 --ntasks-per-node=1 --cpus-per-task=1 --mem=4096M --time=240  \
+         \
+        /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-idr_pr/shard-0/execution/script.caper && exit 0
+    sleep 30
+done
+exit 1
+2023-07-11 15:02:31,025 cromwell-system-akka.dispatchers.backend-dispatcher-156 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.idr_pr:0:1]: job id: 23827541
+2023-07-11 15:02:31,026 cromwell-system-akka.dispatchers.backend-dispatcher-156 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.idr_pr:0:1]: Cromwell will watch for an rc file but will *not* double-check whether this job is actually alive (unless Cromwell restarts)
+2023-07-11 15:02:31,026 cromwell-system-akka.dispatchers.backend-dispatcher-210 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.idr_pr:0:1]: Status change from - to Running
+2023-07-11 15:05:32,175 cromwell-system-akka.dispatchers.backend-dispatcher-244 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.overlap_pr:0:1]: Status change from Running to Done
+2023-07-11 15:05:38,205 cromwell-system-akka.dispatchers.engine-dispatcher-28 INFO  - WorkflowExecutionActor-c996bd9a-6f85-414d-a2db-1d916c0c7475 [UUID(c996bd9a)]: Starting atac.reproducibility_overlap
+2023-07-11 15:05:38,304 cromwell-system-akka.dispatchers.engine-dispatcher-28 INFO  - Assigned new job execution tokens to the following groups: c996bd9a: 1
+2023-07-11 15:05:38,312 cromwell-system-akka.dispatchers.engine-dispatcher-31 INFO  - BT-322 c996bd9a:atac.reproducibility_overlap:-1:1 is eligible for call caching with read = true and write = true
+2023-07-11 15:05:38,317 cromwell-system-akka.dispatchers.engine-dispatcher-28 INFO  - BT-322 c996bd9a:atac.reproducibility_overlap:-1:1 cache hit copying nomatch: could not find a suitable cache hit.
+2023-07-11 15:05:38,317 cromwell-system-akka.dispatchers.engine-dispatcher-28 INFO  - c996bd9a-6f85-414d-a2db-1d916c0c7475-EngineJobExecutionActor-atac.reproducibility_overlap:NA:1 [UUID(c996bd9a)]: Could not copy a suitable cache hit for c996bd9a:atac.reproducibility_overlap:-1:1. No copy attempts were made.
+2023-07-11 15:05:38,319 cromwell-system-akka.dispatchers.backend-dispatcher-256 WARN  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.reproducibility_overlap:NA:1]: Unrecognized runtime attribute keys: disks, docker
+2023-07-11 15:05:38,331 cromwell-system-akka.dispatchers.backend-dispatcher-256 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.reproducibility_overlap:NA:1]: `set -e
+python3 $(which encode_task_reproducibility.py) \
+     \
+    --peaks-pr /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-reproducibility_overlap/inputs/-1611998554/rep1-pr1_vs_rep1-pr2.overlap.bfilt.narrowPeak.gz \
+     \
+    --prefix overlap \
+    --peak-type narrowPeak \
+    --chrsz /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-reproducibility_overlap/inputs/-501775583/mm10_no_alt.chrom.sizes.tsv`
+2023-07-11 15:05:38,347 cromwell-system-akka.dispatchers.backend-dispatcher-256 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.reproducibility_overlap:NA:1]: executing: cat << EOF > /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-reproducibility_overlap/execution/script.caper
+#!/bin/bash
+
+if [ 'true' == 'true' ] && [ 'conda' == 'singularity' ] || \
+   [ 'true' == 'false' ] && [ 'true' == 'true' ] && [ ! -z 'https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif' ]
+then
+    mkdir -p $HOME/.singularity/lock/
+    flock --exclusive --timeout 600 \
+        $HOME/.singularity/lock/`echo -n 'https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif' | md5sum | cut -d' ' -f1` \
+        singularity exec --containall https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif echo 'Successfully pulled https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif'
+
+    singularity exec --cleanenv --home=`dirname /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-reproducibility_overlap` \
+        --bind=, \
+         \
+        https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-reproducibility_overlap/execution/script
+
+elif [ 'true' == 'true' ] && [ 'conda' == 'conda' ] || \
+     [ 'true' == 'false' ] && [ 'true' == 'true' ] && [ ! -z 'encd-atac' ]
+then
+    conda run --name=encd-atac /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-reproducibility_overlap/execution/script
+
+else
+    /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-reproducibility_overlap/execution/script
+fi
+
+EOF
+
+for ITER in 1 2 3
+do
+    sbatch --export=ALL -J cromwell_c996bd9a_reproducibility_overlap -D /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-reproducibility_overlap -o /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-reproducibility_overlap/execution/stdout -e /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-reproducibility_overlap/execution/stderr \
+        -p akundaje  \
+        -n 1 --ntasks-per-node=1 --cpus-per-task=1 --mem=4096M --time=240  \
+         \
+        /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-reproducibility_overlap/execution/script.caper && exit 0
+    sleep 30
+done
+exit 1
+2023-07-11 15:05:41,026 cromwell-system-akka.dispatchers.backend-dispatcher-256 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.reproducibility_overlap:NA:1]: job id: 23827619
+2023-07-11 15:05:41,026 cromwell-system-akka.dispatchers.backend-dispatcher-257 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.reproducibility_overlap:NA:1]: Cromwell will watch for an rc file but will *not* double-check whether this job is actually alive (unless Cromwell restarts)
+2023-07-11 15:05:41,027 cromwell-system-akka.dispatchers.backend-dispatcher-257 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.reproducibility_overlap:NA:1]: Status change from - to Running
+2023-07-11 15:06:30,645 cromwell-system-akka.dispatchers.backend-dispatcher-244 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.idr_pr:0:1]: Status change from Running to Done
+2023-07-11 15:06:34,306 cromwell-system-akka.dispatchers.engine-dispatcher-28 INFO  - WorkflowExecutionActor-c996bd9a-6f85-414d-a2db-1d916c0c7475 [UUID(c996bd9a)]: Starting atac.reproducibility_idr
+2023-07-11 15:06:36,304 cromwell-system-akka.dispatchers.engine-dispatcher-31 INFO  - Assigned new job execution tokens to the following groups: c996bd9a: 1
+2023-07-11 15:06:36,310 cromwell-system-akka.dispatchers.engine-dispatcher-7 INFO  - BT-322 c996bd9a:atac.reproducibility_idr:-1:1 is eligible for call caching with read = true and write = true
+2023-07-11 15:06:36,316 cromwell-system-akka.dispatchers.engine-dispatcher-31 INFO  - BT-322 c996bd9a:atac.reproducibility_idr:-1:1 cache hit copying nomatch: could not find a suitable cache hit.
+2023-07-11 15:06:36,316 cromwell-system-akka.dispatchers.engine-dispatcher-31 INFO  - c996bd9a-6f85-414d-a2db-1d916c0c7475-EngineJobExecutionActor-atac.reproducibility_idr:NA:1 [UUID(c996bd9a)]: Could not copy a suitable cache hit for c996bd9a:atac.reproducibility_idr:-1:1. No copy attempts were made.
+2023-07-11 15:06:36,316 cromwell-system-akka.dispatchers.backend-dispatcher-257 WARN  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.reproducibility_idr:NA:1]: Unrecognized runtime attribute keys: disks, docker
+2023-07-11 15:06:36,326 cromwell-system-akka.dispatchers.backend-dispatcher-257 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.reproducibility_idr:NA:1]: `set -e
+python3 $(which encode_task_reproducibility.py) \
+     \
+    --peaks-pr /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-reproducibility_idr/inputs/-2127941066/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.narrowPeak.gz \
+     \
+    --prefix idr \
+    --peak-type narrowPeak \
+    --chrsz /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-reproducibility_idr/inputs/-501775583/mm10_no_alt.chrom.sizes.tsv`
+2023-07-11 15:06:36,337 cromwell-system-akka.dispatchers.backend-dispatcher-257 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.reproducibility_idr:NA:1]: executing: cat << EOF > /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-reproducibility_idr/execution/script.caper
+#!/bin/bash
+
+if [ 'true' == 'true' ] && [ 'conda' == 'singularity' ] || \
+   [ 'true' == 'false' ] && [ 'true' == 'true' ] && [ ! -z 'https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif' ]
+then
+    mkdir -p $HOME/.singularity/lock/
+    flock --exclusive --timeout 600 \
+        $HOME/.singularity/lock/`echo -n 'https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif' | md5sum | cut -d' ' -f1` \
+        singularity exec --containall https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif echo 'Successfully pulled https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif'
+
+    singularity exec --cleanenv --home=`dirname /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-reproducibility_idr` \
+        --bind=, \
+         \
+        https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-reproducibility_idr/execution/script
+
+elif [ 'true' == 'true' ] && [ 'conda' == 'conda' ] || \
+     [ 'true' == 'false' ] && [ 'true' == 'true' ] && [ ! -z 'encd-atac' ]
+then
+    conda run --name=encd-atac /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-reproducibility_idr/execution/script
+
+else
+    /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-reproducibility_idr/execution/script
+fi
+
+EOF
+
+for ITER in 1 2 3
+do
+    sbatch --export=ALL -J cromwell_c996bd9a_reproducibility_idr -D /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-reproducibility_idr -o /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-reproducibility_idr/execution/stdout -e /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-reproducibility_idr/execution/stderr \
+        -p akundaje  \
+        -n 1 --ntasks-per-node=1 --cpus-per-task=1 --mem=4096M --time=240  \
+         \
+        /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-reproducibility_idr/execution/script.caper && exit 0
+    sleep 30
+done
+exit 1
+2023-07-11 15:06:56,026 cromwell-system-akka.dispatchers.backend-dispatcher-257 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.reproducibility_idr:NA:1]: job id: 23827640
+2023-07-11 15:06:56,027 cromwell-system-akka.dispatchers.backend-dispatcher-243 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.reproducibility_idr:NA:1]: Cromwell will watch for an rc file but will *not* double-check whether this job is actually alive (unless Cromwell restarts)
+2023-07-11 15:06:56,027 cromwell-system-akka.dispatchers.backend-dispatcher-243 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.reproducibility_idr:NA:1]: Status change from - to Running
+2023-07-11 15:09:16,095 cromwell-system-akka.dispatchers.backend-dispatcher-291 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.reproducibility_idr:NA:1]: Status change from Running to Done
+2023-07-11 15:09:26,465 cromwell-system-akka.dispatchers.backend-dispatcher-307 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.reproducibility_overlap:NA:1]: Status change from Running to Done
+2023-07-11 15:23:05,458 cromwell-system-akka.dispatchers.backend-dispatcher-367 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.macs2_signal_track:0:1]: Status change from Running to Done
+2023-07-11 15:23:12,687 cromwell-system-akka.dispatchers.engine-dispatcher-31 INFO  - WorkflowExecutionActor-c996bd9a-6f85-414d-a2db-1d916c0c7475 [UUID(c996bd9a)]: Starting atac.qc_report
+2023-07-11 15:23:14,305 cromwell-system-akka.dispatchers.engine-dispatcher-31 INFO  - Assigned new job execution tokens to the following groups: c996bd9a: 1
+2023-07-11 15:23:14,318 cromwell-system-akka.dispatchers.engine-dispatcher-28 INFO  - BT-322 c996bd9a:atac.qc_report:-1:1 is eligible for call caching with read = true and write = true
+2023-07-11 15:23:14,325 cromwell-system-akka.dispatchers.engine-dispatcher-33 INFO  - BT-322 c996bd9a:atac.qc_report:-1:1 cache hit copying nomatch: could not find a suitable cache hit.
+2023-07-11 15:23:14,326 cromwell-system-akka.dispatchers.engine-dispatcher-33 INFO  - c996bd9a-6f85-414d-a2db-1d916c0c7475-EngineJobExecutionActor-atac.qc_report:NA:1 [UUID(c996bd9a)]: Could not copy a suitable cache hit for c996bd9a:atac.qc_report:-1:1. No copy attempts were made.
+2023-07-11 15:23:14,341 cromwell-system-akka.dispatchers.backend-dispatcher-486 WARN  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.qc_report:NA:1]: Unrecognized runtime attribute keys: disks, docker
+2023-07-11 15:23:14,390 cromwell-system-akka.dispatchers.backend-dispatcher-486 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.qc_report:NA:1]: `set -e
+python3 $(which encode_task_qc_report.py) \
+    --pipeline-prefix atac \
+    --pipeline-ver v2.2.0 \
+    --title 'Untitled' \
+    --desc 'No description' \
+    --genome mm10 \
+    --multimapping 4 \
+    --paired-ends true \
+    --pipeline-type atac \
+    --aligner bowtie2 \
+     \
+    --peak-caller macs2 \
+    --cap-num-peak 300000 \
+    --idr-thresh 0.05 \
+    --pval-thresh 0.01 \
+    --xcor-subsample-reads 25000000 \
+    --frac-mito-qcs  \
+    --samstat-qcs  \
+    --nodup-samstat-qcs  \
+    --dup-qcs  \
+    --lib-complexity-qcs  \
+    --xcor-plots  \
+    --xcor-scores  \
+    --idr-plots  \
+    --idr-plots-pr /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/inputs/-2107394872/rep1-pr1_vs_rep1-pr2.idr0.05.unthresholded-peaks.txt.png \
+     \
+    --jsd-qcs  \
+     \
+    --frip-qcs /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/inputs/182811116/panGamma_control.tagalign.gz.pval0.01.300K.bfilt.frip.qc \
+    --frip-qcs-pr1 /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/inputs/-1435735140/panGamma_control.tagalign.gz.pr1.pval0.01.300K.bfilt.frip.qc \
+    --frip-qcs-pr2 /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/inputs/-805276515/panGamma_control.tagalign.gz.pr2.pval0.01.300K.bfilt.frip.qc \
+     \
+     \
+     \
+    --frip-idr-qcs  \
+    --frip-idr-qcs-pr /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/inputs/1678770710/rep1-pr1_vs_rep1-pr2.idr0.05.bfilt.frip.qc \
+     \
+    --frip-overlap-qcs  \
+    --frip-overlap-qcs-pr /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/inputs/-2100254074/rep1-pr1_vs_rep1-pr2.overlap.bfilt.frip.qc \
+     \
+    --idr-reproducibility-qc /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/inputs/1532173587/idr.reproducibility.qc \
+    --overlap-reproducibility-qc /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/inputs/-678841053/overlap.reproducibility.qc \
+    --annot-enrich-qcs /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/inputs/556259828/panGamma_control.tagalign.gz.annot_enrich.qc \
+    --tss-enrich-qcs  \
+    --tss-large-plots  \
+    --roadmap-compare-plots  \
+    --fraglen-dist-plots  \
+    --fraglen-nucleosomal-qcs  \
+    --gc-plots  \
+    --preseq-plots  \
+    --picard-est-lib-size-qcs  \
+    --peak-region-size-qcs /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/inputs/-677883095/panGamma_control.tagalign.gz.pval0.01.300K.bfilt.peak_region_size.qc \
+    --peak-region-size-plots /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/inputs/751698352/panGamma_control.tagalign.gz.pval0.01.300K.bfilt.peak_region_size.png \
+    --num-peak-qcs /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/inputs/397729481/panGamma_control.tagalign.gz.pval0.01.300K.bfilt.num_peak.qc \
+    --idr-opt-peak-region-size-qc /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/inputs/869349161/idr.optimal_peak.peak_region_size.qc \
+    --idr-opt-peak-region-size-plot /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/inputs/87915968/overlap.optimal_peak.peak_region_size.png \
+    --idr-opt-num-peak-qc /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/inputs/1944961737/idr.optimal_peak.num_peak.qc \
+    --overlap-opt-peak-region-size-qc /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/inputs/-1341665479/overlap.optimal_peak.peak_region_size.qc \
+    --overlap-opt-peak-region-size-plot /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/inputs/87915968/overlap.optimal_peak.peak_region_size.png \
+    --overlap-opt-num-peak-qc /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/inputs/-266052903/overlap.optimal_peak.num_peak.qc \
+    --out-qc-html qc.html \
+    --out-qc-json qc.json \`
+2023-07-11 15:23:14,422 cromwell-system-akka.dispatchers.backend-dispatcher-486 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.qc_report:NA:1]: executing: cat << EOF > /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/execution/script.caper
+#!/bin/bash
+
+if [ 'true' == 'true' ] && [ 'conda' == 'singularity' ] || \
+   [ 'true' == 'false' ] && [ 'true' == 'true' ] && [ ! -z 'https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif' ]
+then
+    mkdir -p $HOME/.singularity/lock/
+    flock --exclusive --timeout 600 \
+        $HOME/.singularity/lock/`echo -n 'https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif' | md5sum | cut -d' ' -f1` \
+        singularity exec --containall https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif echo 'Successfully pulled https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif'
+
+    singularity exec --cleanenv --home=`dirname /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report` \
+        --bind=, \
+         \
+        https://encode-pipeline-singularity-image.s3.us-west-2.amazonaws.com/atac-seq-pipeline_v2.2.0.sif /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/execution/script
+
+elif [ 'true' == 'true' ] && [ 'conda' == 'conda' ] || \
+     [ 'true' == 'false' ] && [ 'true' == 'true' ] && [ ! -z 'encd-atac' ]
+then
+    conda run --name=encd-atac /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/execution/script
+
+else
+    /bin/bash /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/execution/script
+fi
+
+EOF
+
+for ITER in 1 2 3
+do
+    sbatch --export=ALL -J cromwell_c996bd9a_qc_report -D /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report -o /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/execution/stdout -e /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/execution/stderr \
+        -p akundaje  \
+        -n 1 --ntasks-per-node=1 --cpus-per-task=1 --mem=4096M --time=240  \
+         \
+        /scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/execution/script.caper && exit 0
+    sleep 30
+done
+exit 1
+2023-07-11 15:23:21,026 cromwell-system-akka.dispatchers.backend-dispatcher-488 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.qc_report:NA:1]: job id: 23828976
+2023-07-11 15:23:21,028 cromwell-system-akka.dispatchers.backend-dispatcher-488 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.qc_report:NA:1]: Cromwell will watch for an rc file but will *not* double-check whether this job is actually alive (unless Cromwell restarts)
+2023-07-11 15:23:21,028 cromwell-system-akka.dispatchers.backend-dispatcher-488 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.qc_report:NA:1]: Status change from - to Running
+2023-07-11 15:27:05,625 cromwell-system-akka.dispatchers.backend-dispatcher-542 INFO  - DispatchedConfigAsyncJobExecutionActor [UUID(c996bd9a)atac.qc_report:NA:1]: Status change from Running to Done
+2023-07-11 15:27:08,257 cromwell-system-akka.dispatchers.engine-dispatcher-6 INFO  - WorkflowExecutionActor-c996bd9a-6f85-414d-a2db-1d916c0c7475 [UUID(c996bd9a)]: Workflow atac complete. Final Outputs:
+{
+  "atac.qc_json_ref_match": false,
+  "atac.qc_json": "/scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/execution/glob-3440f922973abb7a616aaf203e0db08b/qc.json",
+  "atac.report": "/scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/execution/glob-eae855c82d0f7e2185388856e7b2cc7b/qc.html"
+}
+2023-07-11 15:27:11,189 cromwell-system-akka.dispatchers.engine-dispatcher-6 INFO  - WorkflowManagerActor: Workflow actor for c996bd9a-6f85-414d-a2db-1d916c0c7475 completed with status 'Succeeded'. The workflow will be removed from the workflow store.
+2023-07-11 15:27:39,079 cromwell-system-akka.dispatchers.engine-dispatcher-28 INFO  - SingleWorkflowRunnerActor workflow finished with status 'Succeeded'.
+{
+  "outputs": {
+    "atac.qc_json": "/scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/execution/glob-3440f922973abb7a616aaf203e0db08b/qc.json",
+    "atac.qc_json_ref_match": false,
+    "atac.report": "/scratch/users/ziwei75/ALS_colab/output/panGamma_control/atac/c996bd9a-6f85-414d-a2db-1d916c0c7475/call-qc_report/execution/glob-eae855c82d0f7e2185388856e7b2cc7b/qc.html"
+  },
+  "id": "c996bd9a-6f85-414d-a2db-1d916c0c7475"
+}
+2023-07-11 15:27:41,582 cromwell-system-akka.dispatchers.engine-dispatcher-6 INFO  - SingleWorkflowRunnerActor writing metadata to /scratch/users/ziwei75/ALS_colab/output/panGamma_control/.caper_tmp/atac/20230711_145053_907191/metadata.json
+2023-07-11 15:27:41,615  INFO  - Workflow polling stopped
+2023-07-11 15:27:41,625  INFO  - 0 workflows released by cromid-2cd5ff1
+2023-07-11 15:27:41,628  INFO  - Shutting down WorkflowStoreActor - Timeout = 5 seconds
+2023-07-11 15:27:41,642  INFO  - Shutting down WorkflowLogCopyRouter - Timeout = 5 seconds
+2023-07-11 15:27:41,644  INFO  - Shutting down JobExecutionTokenDispenser - Timeout = 5 seconds
+2023-07-11 15:27:41,646 cromwell-system-akka.dispatchers.engine-dispatcher-28 INFO  - Aborting all running workflows.
+2023-07-11 15:27:41,648  INFO  - JobExecutionTokenDispenser stopped
+2023-07-11 15:27:41,651  INFO  - WorkflowLogCopyRouter stopped
+2023-07-11 15:27:41,652  INFO  - WorkflowStoreActor stopped
+2023-07-11 15:27:41,652  INFO  - Shutting down WorkflowManagerActor - Timeout = 3600 seconds
+2023-07-11 15:27:41,652 cromwell-system-akka.dispatchers.engine-dispatcher-31 INFO  - WorkflowManagerActor: All workflows finished
+2023-07-11 15:27:41,652  INFO  - WorkflowManagerActor stopped
+2023-07-11 15:27:42,164  INFO  - Connection pools shut down
+2023-07-11 15:27:42,164  INFO  - Shutting down SubWorkflowStoreActor - Timeout = 1800 seconds
+2023-07-11 15:27:42,164  INFO  - Shutting down JobStoreActor - Timeout = 1800 seconds
+2023-07-11 15:27:42,164  INFO  - Shutting down CallCacheWriteActor - Timeout = 1800 seconds
+2023-07-11 15:27:42,164  INFO  - Shutting down ServiceRegistryActor - Timeout = 1800 seconds
+2023-07-11 15:27:42,165  INFO  - Shutting down DockerHashActor - Timeout = 1800 seconds
+2023-07-11 15:27:42,165  INFO  - Shutting down IoProxy - Timeout = 1800 seconds
+2023-07-11 15:27:42,165  INFO  - SubWorkflowStoreActor stopped
+2023-07-11 15:27:42,166  INFO  - CallCacheWriteActor Shutting down: 0 queued messages to process
+2023-07-11 15:27:42,166  INFO  - JobStoreActor stopped
+2023-07-11 15:27:42,166  INFO  - CallCacheWriteActor stopped
+2023-07-11 15:27:42,168  INFO  - WriteMetadataActor Shutting down: 0 queued messages to process
+2023-07-11 15:27:42,172  INFO  - KvWriteActor Shutting down: 0 queued messages to process
+2023-07-11 15:27:42,177  INFO  - IoProxy stopped
+2023-07-11 15:27:42,178  INFO  - DockerHashActor stopped
+2023-07-11 15:27:42,184  INFO  - ServiceRegistryActor stopped
+2023-07-11 15:27:42,216  INFO  - Shutting down connection pool: curAllocated=0 idleQueues.size=0 waitQueue.size=0 maxWaitQueueLimit=256 closed=false
+2023-07-11 15:27:42,216  INFO  - Shutting down connection pool: curAllocated=0 idleQueues.size=0 waitQueue.size=0 maxWaitQueueLimit=256 closed=false
+2023-07-11 15:27:42,217  INFO  - Shutting down connection pool: curAllocated=0 idleQueues.size=0 waitQueue.size=0 maxWaitQueueLimit=256 closed=false
+2023-07-11 15:27:42,231  INFO  - Database closed
+2023-07-11 15:27:42,231  INFO  - Stream materializer shut down
+2023-07-11 15:27:42,237  INFO  - WDL HTTP import resolver closed

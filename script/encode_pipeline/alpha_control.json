@@ -1,0 +1,10 @@
+{
+    "atac.pipeline_type": "atac",
+    "atac.genome_tsv": "/oak/stanford/groups/akundaje/ziwei75/atac_seq_pipeline/mm10/mm10.tsv",
+    "atac.paired_end": true,
+    "atac.enable_idr": true,
+    "atac.idr_thresh": 0.05,
+    "atac.auto_detect_adapter": true,
+    "atac.tas":["/scratch/users/ziwei75/ALS_colab/sod1_project/tagalign_files/alpha_control.tagalign.gz"]
+}
+

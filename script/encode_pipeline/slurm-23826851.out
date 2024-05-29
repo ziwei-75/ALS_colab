@@ -1,0 +1,49 @@
+alpha_midLate_disease
+2023-07-11 14:50:53,917|caper.cli|INFO| Cromwell stdout: /oak/stanford/groups/akundaje/ziwei75/ALS_colab/script/cromwell.out.2
+2023-07-11 14:50:53,923|caper.caper_base|INFO| Creating a timestamped temporary directory. /scratch/users/ziwei75/ALS_colab/output/alpha_midLate_disease/.caper_tmp/atac/20230711_145053_921235
+2023-07-11 14:50:53,923|caper.caper_runner|INFO| Localizing files on work_dir. /scratch/users/ziwei75/ALS_colab/output/alpha_midLate_disease/.caper_tmp/atac/20230711_145053_921235
+2023-07-11 14:50:55,088|caper.cromwell|INFO| Validating WDL/inputs/imports with Womtool...
+2023-07-11 14:51:01,805|caper.nb_subproc_thread|INFO| Subprocess finished successfully.
+2023-07-11 14:51:01,806|caper.cromwell|INFO| Passed Womtool validation.
+2023-07-11 14:51:01,806|caper.caper_runner|INFO| launching run: wdl=/home/users/ziwei75/atac-seq-pipeline/atac.wdl, inputs=/oak/stanford/groups/akundaje/ziwei75/ALS_colab/script/alpha_midLate_disease.json, backend_conf=/scratch/users/ziwei75/ALS_colab/output/alpha_midLate_disease/.caper_tmp/atac/20230711_145053_921235/backend.conf
+2023-07-11 14:51:13,567|caper.cromwell_workflow_monitor|INFO| Workflow: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, status=Submitted
+2023-07-11 14:51:13,624|caper.cromwell_workflow_monitor|INFO| Workflow: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, status=Running
+2023-07-11 14:51:28,181|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.read_genome_tsv:-1, retry=0, status=Started, job_id=23827006
+2023-07-11 14:51:28,189|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.read_genome_tsv:-1, retry=0, status=Running
+2023-07-11 14:51:43,155|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.spr:0, retry=0, status=Started, job_id=23827010
+2023-07-11 14:51:43,156|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.spr:0, retry=0, status=Running
+2023-07-11 14:54:20,926|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.read_genome_tsv:-1, retry=0, status=Done
+2023-07-11 14:54:28,155|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.macs2_signal_track:0, retry=0, status=Started, job_id=23827138
+2023-07-11 14:54:28,156|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.macs2_signal_track:0, retry=0, status=Running
+2023-07-11 14:54:33,156|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.call_peak:0, retry=0, status=Started, job_id=23827141
+2023-07-11 14:54:33,157|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.call_peak:0, retry=0, status=Running
+2023-07-11 14:54:38,154|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.annot_enrich:0, retry=0, status=Started, job_id=23827149
+2023-07-11 14:54:38,155|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.annot_enrich:0, retry=0, status=Running
+2023-07-11 15:00:48,583|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.spr:0, retry=0, status=Done
+2023-07-11 15:01:08,159|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.call_peak_pr2:0, retry=0, status=Started, job_id=23827459
+2023-07-11 15:01:08,159|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.call_peak_pr1:0, retry=0, status=Started, job_id=23827456
+2023-07-11 15:01:08,169|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.call_peak_pr1:0, retry=0, status=Running
+2023-07-11 15:01:08,170|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.call_peak_pr2:0, retry=0, status=Running
+2023-07-11 15:10:08,854|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.annot_enrich:0, retry=0, status=Done
+2023-07-11 15:17:47,285|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.call_peak:0, retry=0, status=Done
+2023-07-11 15:18:55,102|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.call_peak_pr2:0, retry=0, status=Done
+2023-07-11 15:20:57,433|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.call_peak_pr1:0, retry=0, status=Done
+2023-07-11 15:21:18,156|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.idr_pr:0, retry=0, status=Started, job_id=23828871
+2023-07-11 15:21:18,156|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.overlap_pr:0, retry=0, status=Started, job_id=23828870
+2023-07-11 15:21:18,159|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.idr_pr:0, retry=0, status=Running
+2023-07-11 15:21:18,159|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.overlap_pr:0, retry=0, status=Running
+2023-07-11 15:31:43,374|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.overlap_pr:0, retry=0, status=Done
+2023-07-11 15:31:53,154|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.reproducibility_overlap:-1, retry=0, status=Started, job_id=23829882
+2023-07-11 15:31:53,156|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.reproducibility_overlap:-1, retry=0, status=Running
+2023-07-11 15:34:20,473|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.idr_pr:0, retry=0, status=Done
+2023-07-11 15:34:28,154|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.reproducibility_idr:-1, retry=0, status=Started, job_id=23830019
+2023-07-11 15:34:28,155|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.reproducibility_idr:-1, retry=0, status=Running
+2023-07-11 15:39:44,624|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.reproducibility_idr:-1, retry=0, status=Done
+2023-07-11 15:40:33,503|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.reproducibility_overlap:-1, retry=0, status=Done
+2023-07-11 17:36:04,345|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.macs2_signal_track:0, retry=0, status=Done
+2023-07-11 17:36:18,155|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.qc_report:-1, retry=0, status=Started, job_id=23838914
+2023-07-11 17:36:18,156|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.qc_report:-1, retry=0, status=Running
+2023-07-11 17:53:09,588|caper.cromwell_workflow_monitor|INFO| Task: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, task=atac.qc_report:-1, retry=0, status=Done
+2023-07-11 17:53:13,251|caper.cromwell_workflow_monitor|INFO| Workflow: id=f1f4451e-3d36-4ab4-ae51-c777d08847e3, status=Succeeded
+2023-07-11 17:54:29,101|caper.cromwell_metadata|INFO| Wrote metadata file. /scratch/users/ziwei75/ALS_colab/output/alpha_midLate_disease/atac/f1f4451e-3d36-4ab4-ae51-c777d08847e3/metadata.json
+2023-07-11 17:54:29,101|caper.nb_subproc_thread|INFO| Cromwell finished successfully.
